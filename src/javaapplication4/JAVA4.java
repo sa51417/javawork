@@ -45,7 +45,7 @@ public class JAVA4 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setText("æŸ¥è©¢");
+        jButton1.setText("¬d¸ß");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -108,7 +108,7 @@ public class JAVA4 extends javax.swing.JFrame {
          {
              ArrayList<Object> al = new ArrayList();
             for (int i = 1; i <= x; i++){
-           //System.out.print(rs.getObject(i)); 
+           
                     al.add(rs.getObject(i));
             }
                ob.add(al);
@@ -123,12 +123,11 @@ public class JAVA4 extends javax.swing.JFrame {
                     list.toArray()
                 ));
         }
-        // Handle any errors that may have occurred.
+     
         catch (SQLException e) {
             e.printStackTrace();
         }
-    }//GEN-LAST:event_jButton1ActionPerformed
-
+    }
     public static void main(String args[]) {
       
         java.awt.EventQueue.invokeLater(new Runnable() {
